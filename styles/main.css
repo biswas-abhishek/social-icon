@@ -1,0 +1,44 @@
+body {
+  background: rgb(102, 27, 173);
+}
+.container {
+  width: 60%;
+  justify-content: space-evenly;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 40vh;
+}
+.container .icon button {
+  width: 100px;
+  border-radius: 50%;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3.2rem;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 4px 6px 10px darkgray;
+  height: 100px;
+  transition: 0.2s;
+}
+.container .icon.youtube button:hover {
+  font-size: 3.5rem;
+  color: #c4302b;
+}
+.container .icon.linkedin button:hover {
+  font-size: 3.5rem;
+  color: #0e76a8;
+}
+.container .icon.twitter button:hover {
+  font-size: 3.5rem;
+  color: #00acee;
+}
+.container .icon.facebook button:hover {
+  font-size: 3.5rem;
+  color: #3b5998;
+}
+.container .icon.instagram button:hover {
+  font-size: 3.5rem;
+  color: #8a3ab9;
+}
